@@ -1,0 +1,584 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ionic',
+1 verbose cli   'to',
+1 verbose cli   'update' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'ionic', null ]
+7 verbose cache add spec ionic
+8 silly cache add args [ 'to', null ]
+9 verbose cache add spec to
+10 silly cache add args [ 'update', null ]
+11 verbose cache add spec update
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'ionic',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'ionic',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed ionic@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for ionic
+15 info addNameTag [ 'ionic', 'latest' ]
+16 silly mapToRegistry name ionic
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/ionic
+20 verbose addNameTag registry:https://registry.npmjs.org/ionic not in flight; fetching
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'to',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'to',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: 'latest',
+21 silly cache add   type: 'tag' }
+22 silly addNamed to@latest
+23 verbose addNamed "latest" is being treated as a dist-tag for to
+24 info addNameTag [ 'to', 'latest' ]
+25 silly mapToRegistry name to
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/to
+29 verbose addNameTag registry:https://registry.npmjs.org/to not in flight; fetching
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'update',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'update',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed update@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for update
+33 info addNameTag [ 'update', 'latest' ]
+34 silly mapToRegistry name update
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/update
+38 verbose addNameTag registry:https://registry.npmjs.org/update not in flight; fetching
+39 verbose request uri https://registry.npmjs.org/ionic
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 12:38:10 PM
+42 verbose request id d04239e55945c107
+43 http request GET https://registry.npmjs.org/ionic
+44 verbose request uri https://registry.npmjs.org/update
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 12:38:11 PM
+47 http request GET https://registry.npmjs.org/update
+48 verbose request uri https://registry.npmjs.org/to
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 12:38:11 PM
+51 http request GET https://registry.npmjs.org/to
+52 http 200 https://registry.npmjs.org/to
+53 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 verbose headers   etag: '"C0CKNCOJZFPGGLNP1OSQMTNDW"',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   'content-length': '37266',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Wed, 16 Mar 2016 11:38:25 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '202',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+53 verbose headers   'x-cache': 'HIT',
+53 verbose headers   'x-cache-hits': '3',
+53 verbose headers   'x-timer': 'S1458128305.708593,VS0,VE0',
+53 verbose headers   vary: 'Accept' }
+54 silly get cb [ 200,
+54 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly get     etag: '"C0CKNCOJZFPGGLNP1OSQMTNDW"',
+54 silly get     'content-type': 'application/json',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     'content-length': '37266',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Wed, 16 Mar 2016 11:38:25 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '202',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-lcy1131-LCY',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '3',
+54 silly get     'x-timer': 'S1458128305.708593,VS0,VE0',
+54 silly get     vary: 'Accept' } ]
+55 verbose get saving to to /home/leo-047/.npm/registry.npmjs.org/to/.cache.json
+56 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+57 silly addNameTag next cb for to with tag latest
+58 silly addNamed to@0.2.9
+59 verbose addNamed "0.2.9" is a plain semver version for to
+60 silly mapToRegistry name to
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/to
+64 verbose addRemoteTarball https://registry.npmjs.org/to/-/to-0.2.9.tgz not in flight; adding
+65 verbose addRemoteTarball [ 'https://registry.npmjs.org/to/-/to-0.2.9.tgz',
+65 verbose addRemoteTarball   '0ba5a56fe53538db9205ceb6d7ed217aae4635c4' ]
+66 info retry fetch attempt 1 at 12:38:26 PM
+67 info attempt registry request try #1 at 12:38:26 PM
+68 http fetch GET https://registry.npmjs.org/to/-/to-0.2.9.tgz
+69 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+70 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+71 http fetch 200 https://registry.npmjs.org/to/-/to-0.2.9.tgz
+72 silly fetchAndShaCheck shasum 0ba5a56fe53538db9205ceb6d7ed217aae4635c4
+73 verbose addTmpTarball /tmp/npm-15311-2b899994/registry.npmjs.org/to/-/to-0.2.9.tgz not in flight; adding
+74 verbose addTmpTarball already have metadata; skipping unpack for to@0.2.9
+75 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+76 silly cache afterAdd to@0.2.9
+77 verbose afterAdd /home/leo-047/.npm/to/0.2.9/package/package.json not in flight; writing
+78 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+79 verbose afterAdd /home/leo-047/.npm/to/0.2.9/package/package.json written
+80 info attempt registry request try #2 at 12:38:41 PM
+81 http request GET https://registry.npmjs.org/update
+82 info attempt registry request try #2 at 12:38:41 PM
+83 http request GET https://registry.npmjs.org/ionic
+84 http 200 https://registry.npmjs.org/ionic
+85 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+85 verbose headers   etag: '"26JJ3KCXPWOZGKMV9OVAQ30G4"',
+85 verbose headers   'content-type': 'application/json',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   'content-length': '673747',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   date: 'Wed, 16 Mar 2016 11:39:00 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '75',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '2',
+85 verbose headers   'x-timer': 'S1458128340.948759,VS0,VE0',
+85 verbose headers   vary: 'Accept' }
+86 silly get cb [ 200,
+86 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+86 silly get     etag: '"26JJ3KCXPWOZGKMV9OVAQ30G4"',
+86 silly get     'content-type': 'application/json',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     'content-length': '673747',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     date: 'Wed, 16 Mar 2016 11:39:00 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     age: '75',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-lcy1124-LCY',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '2',
+86 silly get     'x-timer': 'S1458128340.948759,VS0,VE0',
+86 silly get     vary: 'Accept' } ]
+87 verbose get saving ionic to /home/leo-047/.npm/registry.npmjs.org/ionic/.cache.json
+88 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+89 silly addNameTag next cb for ionic with tag latest
+90 silly addNamed ionic@1.7.14
+91 verbose addNamed "1.7.14" is a plain semver version for ionic
+92 silly cache afterAdd ionic@1.7.14
+93 verbose afterAdd /home/leo-047/.npm/ionic/1.7.14/package/package.json not in flight; writing
+94 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+95 verbose afterAdd /home/leo-047/.npm/ionic/1.7.14/package/package.json written
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 info attempt registry request try #3 at 12:40:11 PM
+98 http request GET https://registry.npmjs.org/update
+99 http 200 https://registry.npmjs.org/update
+100 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 verbose headers   etag: '"CZ6D6CM10G9ROFBSVVU2IPUAE"',
+100 verbose headers   'content-type': 'application/json',
+100 verbose headers   'cache-control': 'max-age=300',
+100 verbose headers   'content-length': '30785',
+100 verbose headers   'accept-ranges': 'bytes',
+100 verbose headers   date: 'Wed, 16 Mar 2016 11:40:26 GMT',
+100 verbose headers   via: '1.1 varnish',
+100 verbose headers   age: '290',
+100 verbose headers   connection: 'keep-alive',
+100 verbose headers   'x-served-by': 'cache-ams4127-AMS',
+100 verbose headers   'x-cache': 'HIT',
+100 verbose headers   'x-cache-hits': '1',
+100 verbose headers   'x-timer': 'S1458128426.637356,VS0,VE0',
+100 verbose headers   vary: 'Accept' }
+101 silly get cb [ 200,
+101 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+101 silly get     etag: '"CZ6D6CM10G9ROFBSVVU2IPUAE"',
+101 silly get     'content-type': 'application/json',
+101 silly get     'cache-control': 'max-age=300',
+101 silly get     'content-length': '30785',
+101 silly get     'accept-ranges': 'bytes',
+101 silly get     date: 'Wed, 16 Mar 2016 11:40:26 GMT',
+101 silly get     via: '1.1 varnish',
+101 silly get     age: '290',
+101 silly get     connection: 'keep-alive',
+101 silly get     'x-served-by': 'cache-ams4127-AMS',
+101 silly get     'x-cache': 'HIT',
+101 silly get     'x-cache-hits': '1',
+101 silly get     'x-timer': 'S1458128426.637356,VS0,VE0',
+101 silly get     vary: 'Accept' } ]
+102 verbose get saving update to /home/leo-047/.npm/registry.npmjs.org/update/.cache.json
+103 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+104 silly addNameTag next cb for update with tag latest
+105 silly addNamed update@0.4.2
+106 verbose addNamed "0.4.2" is a plain semver version for update
+107 silly mapToRegistry name update
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/update
+111 verbose addRemoteTarball https://registry.npmjs.org/update/-/update-0.4.2.tgz not in flight; adding
+112 verbose addRemoteTarball [ 'https://registry.npmjs.org/update/-/update-0.4.2.tgz',
+112 verbose addRemoteTarball   '04c3bf907b653522c83a19d17879370b51097657' ]
+113 info retry fetch attempt 1 at 12:40:27 PM
+114 info attempt registry request try #1 at 12:40:27 PM
+115 http fetch GET https://registry.npmjs.org/update/-/update-0.4.2.tgz
+116 http fetch 200 https://registry.npmjs.org/update/-/update-0.4.2.tgz
+117 silly fetchAndShaCheck shasum 04c3bf907b653522c83a19d17879370b51097657
+118 verbose addTmpTarball /tmp/npm-15311-2b899994/registry.npmjs.org/update/-/update-0.4.2.tgz not in flight; adding
+119 verbose addTmpTarball already have metadata; skipping unpack for update@0.4.2
+120 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+121 silly cache afterAdd update@0.4.2
+122 verbose afterAdd /home/leo-047/.npm/update/0.4.2/package/package.json not in flight; writing
+123 verbose correctMkdir /home/leo-047/.npm correctMkdir not in flight; initializing
+124 verbose afterAdd /home/leo-047/.npm/update/0.4.2/package/package.json written
+125 silly install resolved [ { name: 'to',
+125 silly install resolved     description: 'load/convert between xml,json,yaml formats',
+125 silly install resolved     homepage: 'https://github.com/openmason/to',
+125 silly install resolved     version: '0.2.9',
+125 silly install resolved     author: { name: 'el aras', email: 'openmason@gmail.com' },
+125 silly install resolved     dependencies:
+125 silly install resolved      { handy: '>= 0.0.11',
+125 silly install resolved        underscore: '>= 1.4.0',
+125 silly install resolved        'js-yaml': '>= 1.0.2',
+125 silly install resolved        htmlparser: '>= 1.7.6',
+125 silly install resolved        optimist: '>= 0.3.5' },
+125 silly install resolved     devDependencies: { mocha: '>= 1.6.0', should: '>= 1.2.0' },
+125 silly install resolved     keywords: [ 'converter', 'convertor', 'json', 'xml', 'yaml' ],
+125 silly install resolved     repository: { type: 'git', url: 'git://github.com/openmason/to' },
+125 silly install resolved     main: 'index',
+125 silly install resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+125 silly install resolved     engines: { node: '>= 0.8.0' },
+125 silly install resolved     readme: '[![build status](https://secure.travis-ci.org/openmason/to.png)](http://travis-ci.org/openmason/to)\n\n# to.js\ncollection of convertors.\nComes with command line options to use the convertors along with a library version that can be used within programs as well.\n\n# Solves\n  * read input formats json, xml, yaml \n  * converts the document to internal javascript object form\n  * write output as json, yaml documents\n  * only input xml is handled (no output xml yet)\n\n## Installation\n\n    $ npm install -g to\n    $ npm install to\n\n## Usage\n\nCommand line:\n\n     # reads xml file and prints it in yml\n     $ to -i examples/sample.xml -o .yaml\n     \n     # reads yaml and prints it in json\n     $ to -i examples/sample.yml -o .json\n\nWithin your program:\n\n    var to = require(\'to\');\n    \n    # Load yaml\n    var yamldoc = to.format.yaml.load(\'config.yaml\');\n    \n    # print doc in yaml \n    var doc = ...;\n    console.log(to.format.yaml.stringify(doc));\n\n * refer to examples directory for xml, json, yaml code\n\n## Example\nFor a sample input xml:\n\n    <?xml version="1.0" encoding="UTF-8" ?>\n    <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">    \n    <dummy>\n    <value>15</value>\n    <value>35</value>\n    <value>5</value>\n    <value>4784</value>\n    <value>one more</value>\n    <h>decent</h>\n    <h>list</h>\n    <h>another</h>\n    <object>value</object>\n    <inner>\n      <h1>value</h1>\n      <li>got</li>\n      <li>milk</li>\n    </inner>\n   </dummy>\n\nOutput in json:\n\n    {\n      "dummy": {\n        "value": [\n          "15",\n          "35",\n          "5",\n          "4784",\n          "one more"\n        ],\n        "h": [\n          "decent",\n          "list",\n          "another"\n        ],\n        "object": "value",\n        "inner": {\n          "h1": "value",\n          "li": [\n            "got",\n            "milk"\n          ]\n        }\n      }\n    }\n    \n    # to try this example\n    $ to -i examples/sample1.xml -o .json\n\nOutput in yaml:\n\n    dummy: \n      value: \n        - 15\n        - 35\n        - 5\n        - 4784\n        - "one more"\n      h: \n        - decent\n        - list\n        - another\n      object: value\n      inner: \n        h1: value\n        li: \n          - got\n          - milk\n\n    # to try this example\n    $ to -i examples/sample1.xml -o .yaml\n\n## Todo\n * Input html (be forgiving with bad html)\n * Input markdown \n * Output xml\n * Output html\n * add unit tests\n * allow beautification params for all outputs \n\n## Test cases\nTo execute full test cases\n\n    $ make\n\n',
+125 silly install resolved     _id: 'to@0.2.9',
+125 silly install resolved     dist:
+125 silly install resolved      { shasum: '0ba5a56fe53538db9205ceb6d7ed217aae4635c4',
+125 silly install resolved        tarball: 'http://registry.npmjs.org/to/-/to-0.2.9.tgz' },
+125 silly install resolved     maintainers: [ [Object], [Object] ],
+125 silly install resolved     directories: {},
+125 silly install resolved     _shasum: '0ba5a56fe53538db9205ceb6d7ed217aae4635c4',
+125 silly install resolved     _resolved: 'https://registry.npmjs.org/to/-/to-0.2.9.tgz',
+125 silly install resolved     _from: 'to@latest' },
+125 silly install resolved   { name: 'ionic',
+125 silly install resolved     version: '1.7.14',
+125 silly install resolved     preferGlobal: true,
+125 silly install resolved     description: 'A tool for creating and developing Ionic Framework mobile apps.',
+125 silly install resolved     homepage: 'http://ionicframework.com/',
+125 silly install resolved     bin: { ionic: 'bin/ionic' },
+125 silly install resolved     scripts:
+125 silly install resolved      { bump: 'node lib/tasks/bumpversion',
+125 silly install resolved        'beta-bump': 'node lib/tasks/bumpversion --level pre --identifier beta',
+125 silly install resolved        'publish-release': 'node lib/tasks/bumpversion --npmPublish',
+125 silly install resolved        'publish-tag': 'node lib/tasks/bumpversion --level beta --npmPublishTag',
+125 silly install resolved        'full-release': 'node lib/tasks/bumpversion --npmInstall --git --npmPublish',
+125 silly install resolved        test: 'npm run jasmine',
+125 silly install resolved        e2e: 'jasmine-node --captureExceptions ./e2e',
+125 silly install resolved        jasmine: 'jasmine-node --captureExceptions  ./spec' },
+125 silly install resolved     keywords:
+125 silly install resolved      [ 'ionic',
+125 silly install resolved        'ionic framework',
+125 silly install resolved        'ionicframework',
+125 silly install resolved        'mobile',
+125 silly install resolved        'app',
+125 silly install resolved        'hybrid',
+125 silly install resolved        'cordova',
+125 silly install resolved        'phonegap' ],
+125 silly install resolved     repository:
+125 silly install resolved      { type: 'git',
+125 silly install resolved        url: 'git+https://github.com/driftyco/ionic-cli.git' },
+125 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+125 silly install resolved     license: 'MIT',
+125 silly install resolved     dependencies:
+125 silly install resolved      { async: '^0.9.0',
+125 silly install resolved        cheerio: '^0.19.0',
+125 silly install resolved        'cli-table': '^0.3.1',
+125 silly install resolved        colors: '0.6.2',
+125 silly install resolved        connect: '3.1.1',
+125 silly install resolved        'connect-livereload': '0.5.2',
+125 silly install resolved        crc: '3.2.1',
+125 silly install resolved        'cross-spawn': '0.2.3',
+125 silly install resolved        'event-stream': '3.0.x',
+125 silly install resolved        'expand-tilde': '^1.2.0',
+125 silly install resolved        finalhandler: '0.2.0',
+125 silly install resolved        'form-data': '0.1.4',
+125 silly install resolved        gulp: '3.8.8',
+125 silly install resolved        'ionic-app-lib': '0.7.0',
+125 silly install resolved        moment: '^2.10.6',
+125 silly install resolved        ncp: '0.4.2',
+125 silly install resolved        npm: '2.1.3',
+125 silly install resolved        open: '0.0.5',
+125 silly install resolved        optimist: '0.6.0',
+125 silly install resolved        progress: '1.1.7',
+125 silly install resolved        prompt: '0.2.12',
+125 silly install resolved        'proxy-middleware': '^0.7.0',
+125 silly install resolved        q: '1.0.1',
+125 silly install resolved        request: '2.51.0',
+125 silly install resolved        semver: '^4.2.0',
+125 silly install resolved        'serve-static': '1.7.1',
+125 silly install resolved        shelljs: '0.2.6',
+125 silly install resolved        'tiny-lr-fork': '0.0.5',
+125 silly install resolved        underscore: '~1.7.0',
+125 silly install resolved        unzip: '0.1.9',
+125 silly install resolved        'vinyl-fs': '0.3.7',
+125 silly install resolved        xml2js: '0.4.4' },
+125 silly install resolved     devDependencies: { 'jasmine-node': '^1.14.5', rewire: '^2.3.4' },
+125 silly install resolved     readme: '[![Circle CI](https://circleci.com/gh/driftyco/ionic-cli.svg?style=svg)](https://circleci.com/gh/driftyco/ionic-cli)\n\nIonic-Cli\n=========\n\nThe Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps. In addition, it comes with (optional!)  integration with the [Ionic Platform](http://ionic.io/), a set of mobile services perfect for Ionic apps.\n\nUse the `ionic --help` command for more detailed task information.\n\n## Installing\n\n```bash\n$ npm install -g ionic\n```\n\n*Note: For a global install of `-g ionic`, OSX/Linux users may need to prefix the command with `sudo` or can setup [proper file permissions on OSX for npm](http://www.johnpapa.net/how-to-use-npm-global-without-sudo-on-osx/) to install without `sudo`. *\n\n\n## Starting an Ionic App\n\n```bash\n$ ionic start myapp [template]\n```\n\nStarter templates can either come from a named template, a Github repo, a Codepen, or a local directory. A starter template is what becomes the `www` directory within the Cordova project.\n\n__Named template starters:__\n\n* [tabs](https://github.com/driftyco/ionic-starter-tabs) (Default)\n* [sidemenu](https://github.com/driftyco/ionic-starter-sidemenu)\n* [maps](https://github.com/driftyco/ionic-starter-maps)\n* [salesforce](https://github.com/driftyco/ionic-starter-salesforce)\n* [complex-list](https://github.com/driftyco/ionic-starter-complex-list)\n* [blank](https://github.com/driftyco/ionic-starter-blank)\n\n__Github Repo starters:__\n\n* Any Github repo url, ex: [https://github.com/driftyco/ionic-starter-tabs](https://github.com/driftyco/ionic-starter-tabs)\n* Named templates are simply aliases to Ionic starter repos\n\n__Codepen URL starters:__\n\n* Any Codepen url, ex: [http://codepen.io/ionic/pen/odqCz](http://codepen.io/ionic/pen/odqCz)\n* [Ionic Codepen Demos](http://codepen.io/ionic/public-list/)\n\n__Plunker URL starters:__\n\n* Any Plunker url, ex: [http://embed.plnkr.co/dFvL8n/preview](http://embed.plnkr.co/dFvL8n/preview)\n\n__Local directory starters:__\n\n* Relative or absolute path to a local directory\n\n__Command-line flags/options:__\n\n    [--appname|-a]  .......  Human readable name for the app\n                             (Use quotes around the name)\n    [--id|-i]  ............  Package name set in the <widget id> config\n                             ex: com.mycompany.myapp\n    [--no-cordova|-w]  ....  Do not create an app targeted for Cordova\n    [--sass|-s] ...........  Setup the project to use Sass CSS precompiling\n    [--list|-l]  ..........  List starter templates available\n    \n    [--io-app-id] .........  The Ionic.io app ID to use\n\n## Adding a platform target\n\n```bash\n$ ionic platform ios android\n```\n\n## Testing in a Browser\n\nUse `ionic serve` to start a local development server for app dev and testing. This is useful for both desktop browser testing, and to test within a device browser which is connected to the same network. Additionally, this command starts LiveReload which is used to monitor changes in the file system. As soon as you save a file the browser is refreshed automatically. View [Using Sass](https://github.com/driftyco/ionic-cli/blob/master/README.md#using-sass) if you would also like to have `ionic serve` watch the project\'s Sass files.\n\n```bash\n$ ionic serve [options]\n```\n\n## Building your app\n\n```bash\n$ ionic build ios\n```\n\n## Live Reload App During Development (beta)\n\nThe `run` or `emulate` command will deploy the app to the specified platform devices/emulators. You can also run __live reload__ on the specified platform device by adding the `--livereload` option. The live reload functionality is similar to `ionic serve`, but instead of developing and debugging an app using a standard browser, the compiled hybrid app itself is watching for any changes to its files and reloading the app when needed. This reduces the requirement to constantly rebuild the app for small changes. However, any changes to plugins will still require a full rebuild. For live reload to work, the dev machine and device must be on the same local network, and the device must support [web sockets](http://caniuse.com/websockets).\n\nWith live reload enabled, an app\'s console logs can also be printed to the terminal/command prompt by including the `--consolelogs` or `-c` option. Additionally, the development server\'s request logs can be printed out using `--serverlogs` or `-s` options.\n\n__Command-line flags/options for `run` and `emulate`:__\n\n    [--livereload|-l] .......  Live Reload app dev files from the device (beta)\n    [--consolelogs|-c] ......  Print app console logs to Ionic CLI (live reload req.)\n    [--serverlogs|-s] .......  Print dev server logs to Ionic CLI (live reload req.)\n    [--port|-p] .............  Dev server HTTP port (8100 default, live reload req.)\n    [--livereload-port|-i] ..  Live Reload port (35729 default, live reload req.)\n    [--all|-a] ..............  Specify to run on all addresses, 0.0.0.0, so you can view externally\n    [--browser|-w] ..........  Specifies the browser to use (safari, firefox, chrome)\n    [--browseroption|-o] ....  Specifies a path to open to (/#/tab/dash)\n    [--debug|--release]\n\nWhile the server is running for live reload, you can use the following commands within the CLI:\n\n    restart or r to restart the client app from the root\n    goto or g and a url to have the app navigate to the given url\n    consolelogs or c to enable/disable console log output\n    serverlogs or s to enable/disable server log output\n    quit or q to shutdown the server and exit\n\n\n## Emulating your app\n\nDeploys the Ionic app on specified platform emulator. This is simply an alias for `run --emulator`.\n\n```bash\n$ ionic emulate ios [options]\n```\n\n## Running your app\n\nDeploys the Ionic app on specified platform devices. If a device is not found it\'ll then deploy to an emulator/simulator.\n\n```bash\n$ ionic run ios [options]\n```\n\n## Icon and Splash Screen Image Generation\n\n[Automatically generate icons and splash screens](http://ionicframework.com/blog/automating-icons-and-splash-screens/) from source images to create each size needed for each platform, in addition to copying each resized and cropped image into each platform\'s resources directory. Source images can either be a `png`, `psd` __Photoshop__ or `ai` __Illustrator__ file. Images are generated using Ionic\'s image resizing and cropping server, instead of requiring special libraries and plugins to be installed locally.\n\nSince each platform has different image requirements, it\'s best to make a source image for the largest size needed, and let the CLI do all the resizing, cropping and copying for you. Newly generated images will be placed in the `resources` directory at the root of the Cordova project. Additionally, the CLI will update and add the correct `<platform>` configs to the project\'s [config.xml](http://cordova.apache.org/docs/en/edge/config_ref_images.md.html#Icons%20and%20Splash%20Screens) file.\n\nDuring the build process, Cordova (v3.6 or later) will look through the project\'s [config.xml](http://cordova.apache.org/docs/en/edge/config_ref_images.md.html#Icons%20and%20Splash%20Screens) file and copy the newly created resource images to the platform\'s specific resource folder. For example, Android\'s resource folder can be found in `platforms/android/res`, and iOS uses `platforms/ios/APP_NAME/Resources`.\n\n\n### Icon Source Image\n\nSave an `icon.png`, `icon.psd` or `icon.ai` file within the `resources` directory at the root of the Cordova project. The icon image\'s minimum dimensions should be 192x192 px, and should have __no__ rounded corners. Note that each platform will apply it\'s own mask and effects to the icons. For example, iOS will automatically apply it\'s custom rounded corners, so the source file should not already come with rounded corners. This [Photoshop icon template](http://code.ionicframework.com/resources/icon.psd) provides the recommended size and guidelines of the artwork\'s safe zone.\n\n```bash\n$ ionic resources --icon\n```\n\n- [Photoshop Icon Template](http://code.ionicframework.com/resources/icon.psd)\n\n\n### Splash Screen Source Image\n\nSave a `splash.png`, `splash.psd` or `splash.ai` file within the `resources` directory at the root of the Cordova project. Splash screen dimensions vary for each platform, device and orientation, so a square source image is required the generate each of various sizes. The source image\'s minimum dimensions should be 2208x2208 px, and its artwork should be centered within the square, knowning that each generated image will be center cropped into landscape and portait images. The splash screen\'s artwork should roughly fit within a center square (1200x1200 px). This [Photoshop splash screen template](http://code.ionicframework.com/resources/splash.psd) provides the recommended size and guidelines of the artwork\'s safe zone. Additionally, when the `Orientation` [preference config](http://cordova.apache.org/docs/en/edge/config_ref_index.md.html#The%20config.xml%20File_global_preferences) is set to either `landscape` or `portrait` mode, then only the necessary images will be generated.\n\n```bash\n$ ionic resources --splash\n```\n\n- [Photoshop Splash Screen Template](http://code.ionicframework.com/resources/splash.psd)\n\n\n### Generating Icons and Splash Screens\n\nTo generate both icons and splash screens, follow the instructions above and run:\n\n```bash\n$ ionic resources\n```\n\n### Platform Specific Resource Images\n\nOne source image can be used to generate images for each platform by placing the file within the `resources` directory, such as `resources/icon.png`. To use different source images for individual platforms, place the source image in the respective platform\'s directory. For example, to use a different icon for Android, it should follow this path: `resources/android/icon.png`, and a different image for iOS would use this path: `resources/ios/icon.png`.\n\n### Generating Exact Platform Resources\n\nBy default the `ionic resources` command will automatically figure out which platforms it should generate according to what platforms have been added to your project. However, you can also explicitly state which resources should be built by providing a platform name in the command. The example below would generate only `ios` resources (even if the platform hasn\'t been added to the project).\n\n```bash\n$ ionic resources ios\n```\n\n### Default Ionic Resources\n\nIonic provides you some default icons and splash screens to give you a better idea of how to size your icons and splashscreen, as well as how to modify your config.xml file for your own icons.\n\n```bash\n$ ionic resources --default\n```\n\nIf you already have a resources directory, the command above will not over write your files. If you wish to force an over write, use `ionic resources --default --force`.\n\nWhen starting a new app and adding a platform `ionic platform add ios` - the default icons and splashscreens will be downloaded and your config.xml will be modified to set up the default resources. This should help you identify your Ionic apps easier as well as help you get the file structure and configuration correct.\n\n\n## Crosswalk for Android\n\nIn v1.3.0 and later, you can now specify which browser to use in your Cordova Android projects. Currently we only support [Crosswalk](https://crosswalk-project.org/) and have plans to support more browsers later.\n\nExecute `ionic browser add crosswalk` to add the Crosswalk browser to your Android project. By default, this will install the `12.41.296.5` version of Crosswalk.\n\nIf you\'d like to specify a different version of Crosswalk, run `ionic browser list` to see which browsers are available and what versions. Then run `ionic browser add crosswalk@10.39.235.15`.\n\nAll that is left is to run the project as normal - `ionic run android`.\n\nIf you\'d like to build without Crosswalk for Android SDK 21 or later, do the following:\n\n```\nionic browser revert android\nionic build android --release -- --minSdkVersion 21\n```\n\n## Advanced serve options\n\n__LiveReload__\n\nBy default, LiveReload will watch for changes in your `www/` directory,\nexcluding `www/lib/`.  To change this, you can specify a `watchPatterns`\nproperty in the `ionic.project` file located in your project root to watch\n(or not watch) for specific changes.\n\n```json\n{\n  "name": "myApp",\n  "app_id": "",\n  "watchPatterns": [\n    "www/js/*",\n    "!www/css/**/*"\n  ]\n}\n```\n\nFor a reference on glob pattern syntax, check out\n[globbing patterns](http://gruntjs.com/configuring-tasks#globbing-patterns) on\nthe Grunt website.\n\n__Gulp Integration__\n\nWhen running `ionic serve`, you can have Ionic run any Gulp tasks you specify by putting them into your `ionic.project` as a `gulpStartupTasks` property as follows:\n\n```json\n{\n  "name": "SmoothRiders",\n   "gulpStartupTasks": [\n    "watch"\n  ]\n}\n\n```\n\nNow, when you run `ionic serve`, it will run the `watch` task while starting the Ionic server.\n\nIf you would like to disable gulp from running during serve, pass the `--nogulp` option.\n\nNOTE:\n\n```bash\n$ ionic setup sass\n```\n\nwill add a `watchPatterns` propery with the default values to your `ionic.project`\nfile that you can then edit, in addition to the `gulpStartupTasks` property\ndescribed in the [Using Sass](https://github.com/driftyco/ionic-cli/blob/master/README.md#using-sass) section.\n\n\n__Service Proxies:__\n\nThe `serve` command can add some proxies to the http server. These proxies are useful if you are developing in the browser and you need to make calls to an external API. With this feature you can proxy request to the external api through the ionic http server preventing the `No \'Access-Control-Allow-Origin\' header is present on the requested resource` error.\n\nIn the `ionic.project` file you can add a property with an array of proxies you want to add. The proxies are object with the following properties:\n\n* `path`: string that will be matched against the beginning of the incoming request URL.\n* `proxyUrl`: a string with the url of where the proxied request should go.\n* `proxyNoAgent`: (optional) true/false, if true opts out of connection pooling, see [HttpAgent](http://nodejs.org/api/http.html#http_class_http_agent)\n\n```json\n{\n  "name": "appname",\n  "email": "",\n  "app_id": "",\n  "proxies": [\n    {\n      "path": "/v1",\n      "proxyUrl": "https://api.instagram.com/v1"\n    }\n  ]\n}\n\n```\n\nUsing the above configuration, you can now make requests to your local server at `http://localhost:8100/v1` to have it proxy out requests to `https://api.instagram.com/v1`\n\nFor example:\n\n```js\nangular.module(\'starter.controllers\', [])\n.constant(\'InstagramApiUrl\', \'\')\n// .contant(\'InstagramApiUrl\',\'https://api.instagram.com\')\n//In production, make this the real URL\n\n.controller(\'FeedCtrl\', function($scope, $http, InstagramApiUrl) {\n\n  $scope.feed = null;\n\n  $http.get(InstagramApiUrl + \'/v1/media/search?client_id=1&lat=48&lng=2.294351\').then(function(data) {\n    console.log(\'data \' , data)\n    $scope.feed = data;\n  })\n\n})\n```\n\nSee also [this gist](https://gist.github.com/jbavari/d9c1c94058c4fdd4e935) for more help.\n\n__Command-line flags/options:__\n\n    [--consolelogs|-c] ......  Print app console logs to Ionic CLI\n    [--serverlogs|-s] .......  Print dev server logs to Ionic CLI\n    [--port|-p] .............  Dev server HTTP port (8100 default)\n    [--livereload-port|-i] ..  Live Reload port (35729 default)\n    [--nobrowser|-b] ........  Disable launching a browser\n    [--nolivereload|-r] .....  Do not start live reload\n    [--noproxy|-x] ..........  Do not add proxies\n    [--address] .............  Serves in the browser at the specified address\n    [--lab] .................  Serves both iOS and Android in the browser\n    [--nogulp] ..............  Serve without running gulp tasks\n    [--platform|-t] .........  Serve the platform specific styles in the browser (ios/android)\n\n## Using Ionic Labs\n\nWe\'ve extended the serve command to open the new Lab UI that features iOS and Android side-by-side.\n\n```bash\n$ ionic serve --lab\n```\n\nIf you\'ve used the serve command before, you\'ll feel right at home with this one. Just like serve, it opens your app in a browser, but now it shows you what your app will look like on a phone, with both iOS and Android side by side.\n\nAnd of course, it supports Live Reload and all the other goodies we\'ve added over the last couple of months.\n\n## Serving an alternate document root\n\nIf you\'d like to test your app in the browser and you use a folder other than the default of `www`, you can specify this folder in your `ionic.project` file.\n\nYou might also want to have the document root be created if you use some sort of build system, we suggest using `createDocumentRoot` for that so that `ionic serve` will create that folder for you.\n\nIt is also advised you specify the watch patterns for this document root as well, as follows:\n\n```json\n{\n  "name": "SmoothRiders",\n   "gulpStartupTasks": [\n    "watch"\n  ],\n  "documentRoot": "app",\n  "createDocumentRoot": "app",\n  "watchPatterns": [\n    "app/js/*",\n    "!app/css/**/*"\n  ]\n}\n\n```\n\n## Update Ionic lib\n\nUpdate Ionic library files, which are found in the `www/lib/ionic` directory. If bower is being used\nby the project, this command will automatically run `bower update ionic`, otherwise this command updates\nthe local static files from Ionic\'s CDN.\n\n```bash\n$ ionic lib update\n```\n*Note: Using bower? This command does not update Ionic\'s dependencies. Run `bower update` to update Ionic and all of it\'s dependencies defined in `bower.json`.*\n\n## Packaging an app (beta)\n\nUsing Ionic\'s service, you can compile and package your project into an app-store ready app without\nrequiring native SDKs on your machine.\n\n```bash\n$ ionic package debug android\n```\n\nThe third argument can be either `debug` or `release`, and the last argument can be either `android` or `ios`.\n\n\n## Cordova Commands\n\nIonic uses Cordova underneath, so you can also substitute Cordova commands to prepare/build/emulate/run, or to add additional plugins.\n\n*Note: we occasionally send anonymous usage statistics to the Ionic team to make the tool better.*\n\n## Working around proxies\n\nIf you have a proxy you need to get around, you can pass that proxy with the default `http_proxy` [node environment variable](https://www.npmjs.org/doc/misc/npm-config.html#proxy) or an environment variable `proxy`.\n\nA few ways to set up and use the environment variable:\n\n```bash\nexport http_proxy=internal.proxy.com\n# Or\nexport PROXY=internal.proxy.com\n\nionic start my_app\n\n# Additionally, pass in line\nPROXY=internal.proxy.com ionic start my_app\n```\n\n\n## Using Sass\n\nBy default, starter projects are hooked up to Ionic\'s precompiled CSS file, which is found in the project\'s `www/lib/ionic/css` directory, and is linked to the app in the head of the root `index.html` file. However, Ionic projects can also be customized using [Sass](http://sass-lang.com/), which gives developers and designers "superpowers" in terms of creating and maintaining CSS. Below are two ways to setup Sass for your Ionic project (the `ionic setup sass` command simply does the manual steps for you). Once Sass has been setup for your Ionic project, then the `ionic serve` command will also watch for Sass changes.\n\n#### Setup Sass Automatically\n\n    ionic setup sass\n\n\n#### Setup Sass Manually\n\n1. Run `npm install` from the working directory of an Ionic project. This will install [gulp.js](http://gulpjs.com/) and a few handy tasks, such as [gulp-sass](https://www.npmjs.org/package/gulp-sass) and [gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css).\n2. Remove `<link href="lib/ionic/css/ionic.css" rel="stylesheet">` from the `<head>` of the root `index.html` file.\n3. Remove `<link href="css/style.css" rel="stylesheet">` from the `<head>` of the root `index.html` file.\n4. Add `<link href="css/ionic.app.css" rel="stylesheet">` to the `<head>` of the root `index.html` file.\n5. In the `ionic.project` file, add the JavaScript property `"gulpStartupTasks": ["sass", "watch"]` (this can also be customized to whatever gulp tasks you\'d like).\n\n\n# Ionic.io services\n\nThe CLI supports operations to use backend services for your Ionic app. To get started, [visit the ionic.io homepage](http://ionic.io) and [sign up there](https://apps.ionic.io/signup).\n\nThere are a few things you can utilize the CLI for to support ease of development.\n\n## Login\n\nType `ionic login` to get logged in the CLI.\n\n### Login without prompt\n\nYou can pass the email and password to login without being prompted for email and password.\n\n`ionic login --email user@ionic.io --password somepass`\n\n### Login with environment variables\n\nThe CLI also supports settings environment variables to read off the email and password for the user.\n\nSet `IONIC_EMAIL` and `IONIC_PASSWORD` as variables to have the CLI read these instead of being prompted for them.\n\n## Upload your Ionic app\n\nUse the `ionic upload` command to take your current application you are developing and upload it to the Ionic.io servers. \n\nNow you can use [the ionic view app](http://view.ionic.io/) to view that application or have others view the application.\n\nAfter uploading the application, you will see a message:\n\n\n```\nUploading app....\n\nSuccessfully uploaded (f23j9fjs)\n```\n\nThis indicates you uploaded the application correctly, and the App ID is set to `f23j9fjs`.\n\nYou can then view that App ID from the View app or the application listing on ionic.io.\n\n### Adding a note with your upload\n\nTo add a note to your build, pass the `--note` option as follows: \n\n`ionic upload --note "This version of the application fixes the menu selections"`.\n\n## Set your Ionic Project App ID manually\n\nUse the `ionic link <appId>` command to set your Ionic App ID to continue working with the same app with the Ionic platform across development enviroments.\n\n## Share the application with another user\n\nUse the `ionic share <email>` command to have an email sent to another person to have them view the Ionic application you are using. Note: You must have an ionic.io account as well as the user you are sharing with.\n\n# Ionic Docs\n\nTo get Ionic documentation from the Ionic CLI, try using the `ionic docs` command. The command will look up your currently used Ionic version and open the docs specific for that version. Ex: RC0, RC1, etc.\n\nTo view all docs, `ionic docs ls`.\n\nTo get help with a doc you may not remember, just type the name close enough: `ionic docs list` and you will be prompted for suggestions that may match.\n\n\n# Ionic Hooks\n\nIonic provides some default hooks for you to use in your Cordova application. In versions prior to 1.3.18, these hooks were automatically installed via the `ionic platform` command. \n\nIn 1.3.18, the hooks were automatically removed due to some errors users were having with Crosswalk and other plugins with variables. \n\nIf you were a user who would still like to use those hooks, you can re-install these hooks with the `ionic hooks add` command.\n\nIf you would like to remove these hooks yourself, use `ionic hooks remove` to get rid of them.\n\n\n# Ionic State\n\nIonic now provides a command to help you manage the state of your Ionic application. Previously Cordova hooks were used to save platforms and plugins to your `package.json` file.\n\nNow when using `ionic platform add`, `ionic platform rm`, `ionic plugin add`, or `ionic plugin rm`, the state command will automatically be used to save the platform or plugin state to the `package.json` file.\n\nIf you would like to avoid saving plugins or platforms to the `package.json` file - pass in the `--nosave` option. (`ionic plugin add org.apache.cordova.file --nosave`).\n\nYour package.json file might look something like the following:\n\n```json\n"cordovaPlatforms": [\n  "ios",\n  {\n    "android": {\n      "id": "android",\n      "locator": "https://github.com/apache/cordova-android.git"\n    }\n  }\n],\n"cordovaPlugins": [\n  "org.apache.cordova.device",\n  "org.apache.cordova.console",\n  "com.ionic.keyboard",\n  "org.apache.cordova.splashscreen",\n  {\n    "locator": "https://github.com/MobileChromeApps/cordova-crosswalk-engine.git",\n    "id": "org.cordova.croswalk"\n  },\n  {\n    "locator": "/path/to/cloned/phonegap-facebook-plugin",\n    "id": "",\n    "variables": {\n        "APP_ID": "some_id",\n        "APP_NAME": "some_name"\n    }\n  }\n]\n```\n\n## ionic state save\n\nThe `ionic state save` command does some lookup in your platforms and plugins to save the current state of your cordova application. \n\nFirst it looks in your platforms folder to see which platforms are installed, and saves the name and version in your `package.json` file under the `cordovaPlatforms` attribute.\n\nSecond it looks at your plugins `fetch.json` file to save the plugins installed both from the Cordova registry, locally installed plugins, as well as remote plugins from github or a remote HTTP url.\n\n## ionic state restore\n\nThe `ionic state restore` command looks at the `cordovaPlugins` and `cordovaPlatforms` attributes in your `package.json` file to restore your application with those platforms and plugins.\n\nIn the package.json file, `cordovaPlugins` will be stored as just their `ID` if they are installed from the Cordova registry. However, if they are local or remote, they will be stored as an object with those properties. Also to note, variables are stored for plugins with variables like the Facebook connect plugin.\n\nThe `cordovaPlatforms` follow the same convention of either an `ID` for the platform name, if they are local or remote, they will be stored as an object with those properties.\n\nIf you\'d like, you can populate the `cordovaPlugins` and `cordovaPlatforms` by hand, then use the `ionic state restore` command to get your app ready to go.\n\n## ionic state clear\n\nThe `ionic state clear` method will clear out your platforms and plugins directories, as well as removing the `cordovaPlugins` and `cordovaPlaforms` attributes in your `package.json` file.\n\n## ionic state reset\n\nThe `ionic state reset` method will first remove your platforms and plugins folders. Then it will look at your `package.json` file to re-install the platforms and plugins as specified there.\n\nThis command can be helpful for you to reinstall your plugins and platforms to get a fresh start.\n\n\n# ionic.project file\n\nThe ionic.project is a configuration for an ionic project that stores the following:\n\n* `app_id` - the associated app ID in ionic.io.  \n* `browsers` - the installed browsers (CrossWalk).  \n* `createDocumentRoot` - boolean setting stating to create the designated.document root upon serve (for CI, using `app` folder, and compiling)  \n* `defaultBrowser` - the browser they prefer to use with `ionic serve`. Chrome, Firefox, etc.  \n* `documentRoot` - the associated document root with HTML/JS/CSS files.  \n* `gulpDependantTasks` - gulp tasks that are run before `ionic serve` launches. Think of `gulp build`, `gulp sass`, etc.  \n* `gulpStartupTasks` - gulp tasks that are run and kept alive during `ionic serve`.  \n* `imagePaths` - paths relative to document root that specify the release feature to compress images.  \n* `proxies` - designated proxies to use during `ionic serve`.  \n* `name` - the name of the application.  \n* `sass` - the setting to watch sass during `ionic serve`.  \n* `watchPatterns` - the patterns to watch and live reload during `ionic.serve`.  \n\n',
+125 silly install resolved     readmeFilename: 'README.md',
+125 silly install resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+125 silly install resolved     bundleDependencies:
+125 silly install resolved      [ 'async',
+125 silly install resolved        'cheerio',
+125 silly install resolved        'cli-table',
+125 silly install resolved        'colors',
+125 silly install resolved        'connect',
+125 silly install resolved        'connect-livereload',
+125 silly install resolved        'crc',
+125 silly install resolved        'cross-spawn',
+125 silly install resolved        'event-stream',
+125 silly install resolved        'expand-tilde',
+125 silly install resolved        'finalhandler',
+125 silly install resolved        'form-data',
+125 silly install resolved        'gulp',
+125 silly install resolved        'ionic-app-lib',
+125 silly install resolved        'moment',
+125 silly install resolved        'ncp',
+125 silly install resolved        'npm',
+125 silly install resolved        'open',
+125 silly install resolved        'optimist',
+125 silly install resolved        'progress',
+125 silly install resolved        'prompt',
+125 silly install resolved        'proxy-middleware',
+125 silly install resolved        'q',
+125 silly install resolved        'request',
+125 silly install resolved        'semver',
+125 silly install resolved        'serve-static',
+125 silly install resolved        'shelljs',
+125 silly install resolved        'tiny-lr-fork',
+125 silly install resolved        'underscore',
+125 silly install resolved        'unzip',
+125 silly install resolved        'vinyl-fs',
+125 silly install resolved        'xml2js' ],
+125 silly install resolved     _id: 'ionic@1.7.14',
+125 silly install resolved     _from: 'ionic@latest' },
+125 silly install resolved   { name: 'update',
+125 silly install resolved     description: 'Easily keep anything in your project up-to-date by installing the updaters you want to use and running `update` in the command line! Update the copyright date, licence type, ensure that a project uses your latest eslint or jshint configuration, remove dep',
+125 silly install resolved     version: '0.4.2',
+125 silly install resolved     homepage: 'https://github.com/update/update',
+125 silly install resolved     author:
+125 silly install resolved      { name: 'Jon Schlinkert',
+125 silly install resolved        url: 'https://github.com/jonschlinkert' },
+125 silly install resolved     authors:
+125 silly install resolved      [ 'Brian Woodward <brian.woodward@gmail.com> (https://github.com/doowb)',
+125 silly install resolved        'Jon Schlinkert (https://github.com/jonschlinkert)' ],
+125 silly install resolved     contributors: [ [Object], [Object] ],
+125 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/update/update.git' },
+125 silly install resolved     bugs: { url: 'https://github.com/update/update/issues' },
+125 silly install resolved     license: 'MIT',
+125 silly install resolved     files: [ 'bin', 'index.js', 'lib/' ],
+125 silly install resolved     main: 'index.js',
+125 silly install resolved     engines: { node: '>=0.10.0' },
+125 silly install resolved     scripts: { test: 'mocha' },
+125 silly install resolved     preferGlobal: true,
+125 silly install resolved     bin: { update: 'bin/update.js' },
+125 silly install resolved     dependencies:
+125 silly install resolved      { 'ansi-cyan': '^0.1.1',
+125 silly install resolved        'ansi-gray': '^0.1.1',
+125 silly install resolved        'ansi-green': '^0.1.1',
+125 silly install resolved        'ansi-red': '^0.1.1',
+125 silly install resolved        'ansi-yellow': '^0.1.1',
+125 silly install resolved        'assemble-core': '^0.8.0',
+125 silly install resolved        'assemble-loader': '^0.2.6',
+125 silly install resolved        async: '^1.5.2',
+125 silly install resolved        base: '^0.6.3',
+125 silly install resolved        'base-cli': '^0.4.0',
+125 silly install resolved        'base-config': '^0.3.3',
+125 silly install resolved        'base-options': '^0.5.4',
+125 silly install resolved        'base-pipeline': '^0.1.4',
+125 silly install resolved        'base-store': '^0.3.2',
+125 silly install resolved        'composer-runtimes': '^0.7.0',
+125 silly install resolved        'define-property': '^0.2.5',
+125 silly install resolved        'engine-base': '^0.1.2',
+125 silly install resolved        'expand-args': '^0.3.1',
+125 silly install resolved        'expand-object': '^0.4.1',
+125 silly install resolved        'export-files': '^2.1.0',
+125 silly install resolved        'extend-shallow': '^2.0.1',
+125 silly install resolved        'for-own': '^0.1.3',
+125 silly install resolved        'get-value': '^2.0.2',
+125 silly install resolved        'global-modules': '^0.2.0',
+125 silly install resolved        'gulp-eslint': '^1.1.1',
+125 silly install resolved        'lazy-cache': '^1.0.3',
+125 silly install resolved        'load-pkg': '^3.0.1',
+125 silly install resolved        matched: '^0.4.1',
+125 silly install resolved        micromatch: '^2.3.7',
+125 silly install resolved        minimist: '^1.2.0',
+125 silly install resolved        'object.omit': '^2.0.0',
+125 silly install resolved        'object.pick': '^1.1.1',
+125 silly install resolved        'parser-front-matter': '^1.3.0',
+125 silly install resolved        'project-name': '^0.2.3',
+125 silly install resolved        'question-cache': '^0.3.5',
+125 silly install resolved        rimraf: '^2.5.0',
+125 silly install resolved        'set-value': '^0.3.2',
+125 silly install resolved        'sort-object-arrays': '^0.1.1',
+125 silly install resolved        'stream-exhaust': '^1.0.1',
+125 silly install resolved        'success-symbol': '^0.1.0',
+125 silly install resolved        through2: '^2.0.0',
+125 silly install resolved        'time-stamp': '^0.1.3',
+125 silly install resolved        'union-value': '^0.2.1',
+125 silly install resolved        use: '^1.1.2' },
+125 silly install resolved     devDependencies:
+125 silly install resolved      { 'buffer-equal': '^1.0.0',
+125 silly install resolved        consolidate: '^0.13.1',
+125 silly install resolved        coveralls: '^2.11.6',
+125 silly install resolved        'data-store': '^0.12.1',
+125 silly install resolved        'engine-handlebars': '^0.8.0',
+125 silly install resolved        'event-stream': '^3.3.2',
+125 silly install resolved        'graceful-fs': '^4.1.2',
+125 silly install resolved        gulp: '^3.9.0',
+125 silly install resolved        'gulp-format-md': '^0.1.5',
+125 silly install resolved        'gulp-istanbul': '^0.10.3',
+125 silly install resolved        'gulp-mocha': '^2.2.0',
+125 silly install resolved        'is-buffer': '^1.1.1',
+125 silly install resolved        istanbul: '^0.4.1',
+125 silly install resolved        'kind-of': '^3.0.2',
+125 silly install resolved        mocha: '^2.3.4',
+125 silly install resolved        'resolve-glob': '^0.1.8',
+125 silly install resolved        should: '^8.0.2',
+125 silly install resolved        sinon: '^1.17.2',
+125 silly install resolved        swig: '^1.4.2',
+125 silly install resolved        vinyl: '^1.1.0' },
+125 silly install resolved     keywords: [ 'lint', 'next', 'repo', 'update' ],
+125 silly install resolved     verb:
+125 silly install resolved      { related: [Object],
+125 silly install resolved        reflinks: [Object],
+125 silly install resolved        plugins: [Object],
+125 silly install resolved        data: [Object] },
+125 silly install resolved     update:
+125 silly install resolved      { note: 'this is just pseudo data for tests. I\'ll update with real stuff soon.',
+125 silly install resolved        cwd: 'lib/pipeline',
+125 silly install resolved        helpers: [Object],
+125 silly install resolved        plugins: [Object],
+125 silly install resolved        set: [Object] },
+125 silly install resolved     gitHead: 'de0e1344b048505ed5e49c1b1618a86f98f999e4',
+125 silly install resolved     _id: 'update@0.4.2',
+125 silly install resolved     _shasum: '04c3bf907b653522c83a19d17879370b51097657',
+125 silly install resolved     _from: 'update@latest',
+125 silly install resolved     _npmVersion: '3.3.12',
+125 silly install resolved     _nodeVersion: '5.3.0',
+125 silly install resolved     _npmUser: { name: 'jonschlinkert', email: 'github@sellside.com' },
+125 silly install resolved     maintainers: [ [Object] ],
+125 silly install resolved     dist:
+125 silly install resolved      { shasum: '04c3bf907b653522c83a19d17879370b51097657',
+125 silly install resolved        tarball: 'http://registry.npmjs.org/update/-/update-0.4.2.tgz' },
+125 silly install resolved     directories: {},
+125 silly install resolved     _resolved: 'https://registry.npmjs.org/update/-/update-0.4.2.tgz' } ]
+126 info install to@0.2.9 into /usr/lib
+127 info install ionic@1.7.14 into /usr/lib
+128 info install update@0.4.2 into /usr/lib
+129 info installOne to@0.2.9
+130 verbose installOne of to to /usr/lib not in flight; installing
+131 verbose correctMkdir /home/leo-047/.npm/_locks correctMkdir not in flight; initializing
+132 info installOne ionic@1.7.14
+133 verbose installOne of ionic to /usr/lib not in flight; installing
+134 verbose correctMkdir /home/leo-047/.npm/_locks correctMkdir already in flight; waiting
+135 info installOne update@0.4.2
+136 verbose installOne of update to /usr/lib not in flight; installing
+137 verbose correctMkdir /home/leo-047/.npm/_locks correctMkdir already in flight; waiting
+138 verbose makeDirectory /home/leo-047/.npm/_locks creation not in flight; initializing
+139 silly makeDirectory /home/leo-047/.npm/_locks uid: 1000 gid: 1000
+140 verbose lock using /home/leo-047/.npm/_locks/to-1727cb1a84b61377.lock for /usr/lib/node_modules/to
+141 verbose lock using /home/leo-047/.npm/_locks/ionic-870c91ec4eeb12ef.lock for /usr/lib/node_modules/ionic
+142 verbose lock using /home/leo-047/.npm/_locks/update-ada89a9008d12a31.lock for /usr/lib/node_modules/update
+143 silly install write writing to 0.2.9 to /usr/lib/node_modules/to
+144 silly install write writing update 0.4.2 to /usr/lib/node_modules/update
+145 verbose unbuild lib/node_modules/update
+146 silly install write writing ionic 1.7.14 to /usr/lib/node_modules/ionic
+147 silly gentlyRm /usr/lib/node_modules/update is being purged from base /usr
+148 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/update
+149 verbose tar unpack /home/leo-047/.npm/update/0.4.2/package.tgz
+150 verbose tar unpacking to /usr/lib/node_modules/update
+151 silly gentlyRm /usr/lib/node_modules/update is being purged
+152 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/update
+153 silly gunzTarPerm modes [ '775', '664' ]
+154 error tar.unpack untar error /home/leo-047/.npm/update/0.4.2/package.tgz
+155 verbose unbuild lib/node_modules/to
+156 silly gentlyRm /usr/lib/node_modules/to is being purged from base /usr
+157 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/to
+158 verbose tar unpack /home/leo-047/.npm/to/0.2.9/package.tgz
+159 verbose tar unpacking to /usr/lib/node_modules/to
+160 silly gentlyRm /usr/lib/node_modules/to is being purged
+161 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/to
+162 silly gunzTarPerm modes [ '775', '664' ]
+163 error tar.unpack untar error /home/leo-047/.npm/to/0.2.9/package.tgz
+164 verbose unbuild lib/node_modules/ionic
+165 verbose unlock done using /home/leo-047/.npm/_locks/update-ada89a9008d12a31.lock for /usr/lib/node_modules/update
+166 verbose unlock done using /home/leo-047/.npm/_locks/to-1727cb1a84b61377.lock for /usr/lib/node_modules/to
+167 info preuninstall ionic@1.7.7
+168 info uninstall ionic@1.7.7
+169 verbose unbuild rmStuff ionic@1.7.7 from /usr/lib/node_modules
+170 silly gentlyRm /usr/bin/ionic is being gently removed
+171 silly gentlyRm verifying /usr is an npm working directory
+172 silly gentlyRm containing path /usr is under npm's control, in /usr
+173 silly gentlyRm deletion target /usr/bin/ionic is under /usr
+174 verbose gentlyRm vacuuming from /usr/bin/ionic up to /usr
+175 silly vacuum-fs removing /usr/bin/ionic
+176 verbose unlock done using /home/leo-047/.npm/_locks/ionic-870c91ec4eeb12ef.lock for /usr/lib/node_modules/ionic
+177 verbose fstream_path /usr/lib/node_modules/update
+178 verbose fstream_type Directory
+179 verbose fstream_class DirWriter
+180 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/update'
+180 verbose stack     at Error (native)
+181 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+181 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+181 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+182 verbose cwd /home/leo-047/src/Ionic/drugChecker
+183 error Linux 3.16.0-67-generic
+184 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "ionic" "to" "update"
+185 error node v4.4.0
+186 error npm  v2.14.20
+187 error path /usr/lib/node_modules/update
+188 error code EACCES
+189 error errno -13
+190 error syscall mkdir
+191 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/update'
+191 error     at Error (native)
+191 error  { [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/update']
+191 error   errno: -13,
+191 error   code: 'EACCES',
+191 error   syscall: 'mkdir',
+191 error   path: '/usr/lib/node_modules/update',
+191 error   fstream_type: 'Directory',
+191 error   fstream_path: '/usr/lib/node_modules/update',
+191 error   fstream_class: 'DirWriter',
+191 error   fstream_stack:
+191 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+191 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+191 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+192 error Please try running this command again as root/Administrator.
+193 verbose exit [ -13, true ]
+194 verbose unbuild lib/node_modules/update
+195 silly gentlyRm /usr/lib/node_modules/update is being purged from base /usr
+196 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/update
+197 verbose unbuild lib/node_modules/to
+198 silly gentlyRm /usr/lib/node_modules/to is being purged from base /usr
+199 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/to
+200 verbose unbuild lib/node_modules/ionic
+201 info preuninstall ionic@1.7.7
+202 info uninstall ionic@1.7.7
+203 verbose unbuild rmStuff ionic@1.7.7 from /usr/lib/node_modules
+204 silly gentlyRm /usr/bin/ionic is being gently removed
+205 silly gentlyRm verifying /usr is an npm working directory
+206 silly gentlyRm containing path /usr is under npm's control, in /usr
+207 silly gentlyRm deletion target /usr/bin/ionic is under /usr
+208 verbose gentlyRm vacuuming from /usr/bin/ionic up to /usr
+209 silly vacuum-fs removing /usr/bin/ionic
+210 error error rolling back Error: EACCES: permission denied, unlink '/usr/bin/ionic'
+210 error error rolling back     at Error (native)
+210 error error rolling back  { [Error: EACCES: permission denied, unlink '/usr/bin/ionic']
+210 error error rolling back   errno: -13,
+210 error error rolling back   code: 'EACCES',
+210 error error rolling back   syscall: 'unlink',
+210 error error rolling back   path: '/usr/bin/ionic' }

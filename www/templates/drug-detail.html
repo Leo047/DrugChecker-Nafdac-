@@ -1,0 +1,50 @@
+
+<ion-view view-title="Drug Info">
+
+    <ion-content >
+
+        <div>
+
+            <div class="card">
+                <div class="item item-text-wrap">
+                    <p class="item item-icon-left">
+                        <i class="icon ion-medkit"></i>
+                        {{drug.ProductName}}
+                    </p>
+                </div>
+
+                <div class="item item-text-wrap">
+                    <p class="item item-icon-left">
+                        <i class="icon ion-erlenmeyer-flask"></i>
+                        {{drug.ActiveIngredents}} 
+                    </p>
+                </div>
+
+                <div class="item item-text-wrap">
+                    <p class="item item-icon-left">
+                        <i class="icon ion-location"></i>
+                        {{drug.Manufacturer}}
+                    </p>
+                </div>
+
+                <div class="item item-text-wrap">
+                    <p class="item item-icon-left">
+                        <i class="icon ion-card"></i>
+                        {{drug.RegistrationNo}}
+                    </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <button class="button icon-left ion-star button-full button-balanced" ng-click="save()">
+                    Favorite
+                </button>
+                <button class="button button-full button-balanced">
+                    Report
+                </button>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

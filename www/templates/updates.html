@@ -1,0 +1,25 @@
+<html>
+
+    <body ng-app="starter">
+    <ion-view view-title="Updates" >
+        <ion-pane>
+            <ion-content class="no-header" >
+                <ion-list>
+                    <div ng-repeat="feed in feeds| orderBy:'title'">
+                        <ion-item class="item-remove-animate item-avatar item-icon-right"
+                                  ng-repeat="item in feed.entries"
+                                  href="{{item.link}}"
+                                  type="item-text-wrap">
+                            <h2>{{item.title}}</h2>
+                            <p>{{item.content| limitTo : 27: 1 }}
+                        </ion-item>
+                    </div>
+                </ion-list>
+				
+				
+			
+            </ion-content>
+        </ion-pane>
+    </ion-view>
+</body>
+</html>

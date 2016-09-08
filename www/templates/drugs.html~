@@ -1,0 +1,35 @@
+<html ng-app="starter">
+
+    <body >
+
+    <ion-view view-title="Drugs" >
+
+        <ion-content class="no-header">
+
+            <div ng-controller="DrugsCtrl" >
+
+                <ion-list>
+                    <div class="list">
+                        <label class="item item-input">
+                            <i class="icon ion-ios-search placeholder-icon"></i>
+                            <input type="text" placeholder="Search" ng-model="query" style="height:60px">
+                        </label>
+                    </div>
+
+			
+                    <ion-item
+                        class="item-remove-animate item-avatar item-icon-right" 
+                        collection-repeat="drug in drugs| searchDrugs:query | orderBy:'ProductName' " 
+                        type="item-text-wrap"
+                        href="#/app/drugs/{{drug.Id}}">
+                        <h2>{{drug.ProductName}}</h2>
+                        <p>{{drug.RegistrationNo}}</p>
+                        <i class="icon ion-chevron-right icon-accessory"></i>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </ion-content>
+    </ion-view>
+
+</body>
+</html>
